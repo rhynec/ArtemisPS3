@@ -906,7 +906,7 @@ void LoadTextures_Menu()
 }
 
 short *background_music = NULL;
-int background_music_size = 48000*72*4; // initial size of buffer to decode (for 48000 samples x 72 seconds and 16 bit stereo as reference)
+int background_music_size = 48000*240*4; // initial size of buffer to decode (for 48000 samples x 72 seconds and 16 bit stereo as reference)
 int effect_freq;
 int effect_is_stereo;
 void LoadSounds()
